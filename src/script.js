@@ -112,6 +112,6 @@ const animate = () => {
   // controls.update();
 };
 
-renderer.setAnimationLoop(animate); // this is the same as requestAnimationFrame(animate). It will call the animate function over and over again on every frame.
+renderer.setAnimationLoop(animate);
 
 animate();
